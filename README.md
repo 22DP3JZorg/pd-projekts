@@ -9,10 +9,10 @@ $kurss = "DP3-3";
 '''
 
 Mainīgā datu tipu var norādīt, pievienojot to deklarācijai pēc kolonnas (:).
-'''php
+```php
 $skaitlis: int = 10;
 $virkne: string = "Sveika pasaule!";
-'''
+```
 
 # Kādu arhitektūru izmanto Laravel
 Laravel ir MVC (Model-View-Controller) arhitektūras ietvaros balstīta PHP tīmekļa lietojumprogrammu karkasa. Šī arhitektūra sadala lietojumprogrammu trīs slāņos:
@@ -27,6 +27,6 @@ Laravel darbojas, novirzot HTTP pieprasījumus uz atbilstošajiem kontrolieriem.
 ORM (Object-Relational Mapping) ir tehnika, kas ļauj programmētājiem strādāt ar datu bāzēm, izmantojot objektus. ORM kartē datu bāzes tabulas uz objektu klasēm un datu bāzes ierakstus uz objektu instancēm. Tas ļauj programmētājiem manipulēt ar datu bāzi, izmantojot objektorientētu programmēšanas paradigmu, nevis rakstot tīru SQL.
 
 # Eloquent ORM pieprasījums
-'''php
+```php
 $users = User::where('rating', '>', 4)->get();
-'''
+```
