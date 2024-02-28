@@ -3,10 +3,10 @@ Lietojumprogrammas saskarne (angļu: application programming interface, API) ir 
 
 # Kā deklarēt mainīgo PHP
 PHP valodā mainīgos var deklarēt, izmantojot $ simbolu un mainīgā nosaukumu.
-'''php
+```php
 $vards = "Jekabs";
 $kurss = "DP3-3";
-'''
+```
 
 Mainīgā datu tipu var norādīt, pievienojot to deklarācijai pēc kolonnas (:).
 ```php
@@ -17,9 +17,9 @@ $virkne: string = "Sveika pasaule!";
 # Kādu arhitektūru izmanto Laravel
 Laravel ir MVC (Model-View-Controller) arhitektūras ietvaros balstīta PHP tīmekļa lietojumprogrammu karkasa. Šī arhitektūra sadala lietojumprogrammu trīs slāņos:
 
-*Modelis:* Šajā slānī tiek definēta lietojumprogrammas datu struktūra un loģika. Tas parasti sastāv no klasēm, kas attēlo datu bāzes tabulas un veic CRUD (Create, Read, Update, Delete) operācijas.
-*Skats:* Šajā slānī tiek definēta lietojumprogrammas lietotāja saskarne. Tas parasti sastāv no HTML, CSS un JavaScript kodiem.
-*Kontrolētājs:* Šajā slānī tiek apstrādāta lietotāja mijiedarbība un tiek koordinēta datu apmaiņa starp modeli un skatu. Tas parasti sastāv no PHP klasēm, kas apstrādā HTTP pieprasījumus un atbildes.
+**Modelis:** Šajā slānī tiek definēta lietojumprogrammas datu struktūra un loģika. Tas parasti sastāv no klasēm, kas attēlo datu bāzes tabulas un veic CRUD (Create, Read, Update, Delete) operācijas.
+**Skats:** Šajā slānī tiek definēta lietojumprogrammas lietotāja saskarne. Tas parasti sastāv no HTML, CSS un JavaScript kodiem.
+**Kontrolētājs:** Šajā slānī tiek apstrādāta lietotāja mijiedarbība un tiek koordinēta datu apmaiņa starp modeli un skatu. Tas parasti sastāv no PHP klasēm, kas apstrādā HTTP pieprasījumus un atbildes.
 
 Laravel darbojas, novirzot HTTP pieprasījumus uz atbilstošajiem kontrolieriem. Kontrolētājs apstrādā pieprasījumu, iegūst datus no modeļa un sagatavo skatu, kas tiks parādīts lietotājam.
 
